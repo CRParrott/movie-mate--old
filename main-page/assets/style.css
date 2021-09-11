@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+header,
+section {
+	overflow-x: hidden;
+}
+
+header .navbartitle {
+	color: whitesmoke;
+}
+header .navbar {
+	background-color: black;
+}
+header .nav-item:last-child {
+	padding-right: 10.5em;
+}
+
+header .nav-item {
+	padding: 0.9em;
+}
+
+header .navbar-brand {
+	padding-left: 8rem;
+}
+header .nav-link {
+	color: rgb(231, 43, 43);
+}
+header .nav-link:hover {
+	color: white;
+}
+
+header .row .col-md-7 {
+	padding: 22vmin 1vmin;
+	padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+	padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+	width: 90%;
+}
+
+header .container .col-md-7 h6 {
+	padding: 1vmin;
+	letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+	font-size: 8.5vmin;
+	font-weight: bold;
+	padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+	padding: 1vmin 5vmin;
+}
+
+.cover {
+	width: 100%;
+	height: 55vmin;
+	background: url("../assets/pexels-photo-452738.jpeg");
+	background-position: -24rem -19rem;
+	background-size: 150%;
+	position: relative;
+}
+
+.cover .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+
+.cover .content {
+	width: 100%;
+	height: 50%;
+	background: rgba(0, 0, 0, 0.7);
+	padding-top: 60px;
+}
+
+.cover .content > h1 {
+	font-size: 6vmin;
+	color: whitesmoke;
+}
+
+.options .rect {
+	position: relative;
+	z-index: 1;
+	background: whitesmoke;
+	width: 17rem;
+	height: 12rem;
+	padding-top: 3.5vmin;
+	margin: 1rem;
+	border-radius: 0.5em;
+	box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+
+.options {
+	margin-top: -15vmin;
+}
+
+.options .rect h1 {
+	font-size: 5rem;
+	color: rgba(255, 0, 0, 0.349);
+}
+
+.cards div {
+	padding: 0;
+	margin: 0;
+}
+
+.cards .title {
+	background: rgba(208, 241, 241, 0.199);
+	padding: 1.4em 2.5em;
+	font-size: 2vmin;
+}
+
+.card .card-text {
+	padding: 2.5rem 3rem;
+	color: var(--light-black);
+}
+
+.section-2 .container h1 {
+	font-size: 6vmin;
+	padding-top: 14vmin;
+}
+
+.section-2 .team {
+	padding: 10vmin 4vmin;
+}
+
+.section-2 .card {
+	width: 22em;
+	margin-top: 10vmin;
+}
+
+.section-2 .card .card-text {
+	padding: 0.5em;
+}
+
+.section-2 .card-body > a {
+	font-size: 1.5em;
+}
+
+footer {
+	background: rgba(0, 0, 0, 0.815);
+	overflow-x: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+footer a {
+	color: rgb(231, 43, 43);
+}
+
+footer a:hover {
+	color: white;
+}

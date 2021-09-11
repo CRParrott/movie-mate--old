@@ -10,32 +10,54 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/login.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 
-<header> Movie-Mate</header>
-<!--I'll likely replace the movie mate header with a simple logo for a sleeker 
-    aesthetic if time allows -ella -->
-   
-<h1>Login</h1>
+   <!--upper nav bar and usernames-->
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">Movie-Mate</a>
+        <div placeholder="Friend's name"></div> <!--other users name will go here-->
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <div placeholder="Your name"></div> <!--your username-->
+      </nav>
 
-    <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-    
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-    
-        <button type="submit">Login</button>
-        <label>
+      <!--user favorite cards-->
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Users Favorites</h5>
+              <p class="card-text">Favorite Genres:</p>
+              <div></div>
+              <p class="card-text">Favorite Movies:</p>
+              <div></div>
+              <p class="card-text">Watched most recently:</p>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Common Interests:</h5>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="btn btn-primary">Add friend!</a>
 
 
-     <!-- Load React. -->
+      <!-- Load React. -->
   <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
   <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 
   <!-- Load our React component. -->
-  <script src="like_button.js"></script>     
+  <script src="like_button.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
